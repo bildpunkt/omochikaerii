@@ -4,7 +4,9 @@ export default {
   entries: [
     {
       title: 'Episode 1 - Nekogoroshi',
-      done: false
+      done: false,
+      tags: ['nekogoroshi'],
+      weight: 0.3
     }
   ]
 }

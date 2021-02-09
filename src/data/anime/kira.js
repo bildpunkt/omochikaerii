@@ -4,19 +4,27 @@ export default {
   entries: [
     {
       title: 'Episode 1',
-      done: false
+      done: false,
+      tags: [],
+      weight: 0.3
     },
     {
       title: 'Episode 2',
-      done: false
+      done: false,
+      tags: [],
+      weight: 0.3
     },
     {
       title: 'Episode 3',
-      done: false
+      done: false,
+      tags: [],
+      weight: 0.3
     },
     {
       title: 'Episode 4',
-      done: false
+      done: false,
+      tags: [],
+      weight: 0.3
     },
   ]
 }

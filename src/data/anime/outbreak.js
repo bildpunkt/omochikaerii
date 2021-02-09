@@ -4,7 +4,9 @@ export default {
   entries: [
     {
       title: 'Episode 1',
-      done: false
+      done: false,
+      tags: [],
+      weight: 1.0
     }
   ]
 }

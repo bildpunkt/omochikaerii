@@ -4,23 +4,33 @@ export default {
   entries: [
     {
       title: 'Episode 1',
-      done: false
+      done: false,
+      tags: [],
+      weight: 0.3
     },
     {
       title: 'Episode 2 - Saikoroshi, Part 1',
-      done: false
+      done: false,
+      tags: ['saikoroshi'],
+      weight: 0.3
     },
     {
       title: 'Episode 3 - Saikoroshi, Part 2',
-      done: false
+      done: false,
+      tags: ['saikoroshi'],
+      weight: 0.3
     },
     {
       title: 'Episode 4 - Saikoroshi, Part 3',
-      done: false
+      done: false,
+      tags: ['saikoroshi'],
+      weight: 0.3
     },
     {
       title: 'Episode 1',
-      done: false
+      done: false,
+      tags: [],
+      weight: 0.3
     },
   ]
 }
