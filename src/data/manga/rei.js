@@ -4,7 +4,9 @@ export default {
   entries: [
     {
       title: 'Saikoroshi - Volume 1',
-      done: false
+      done: false,
+      tags: ['saikoroshi'],
+      weight: 1.5
     }
   ]
 }
