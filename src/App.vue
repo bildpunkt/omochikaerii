@@ -5,7 +5,8 @@
       This webpage is a public tracker of <a href="https://twitter.com/pixeldesu">@pixeldesu</a>'s journey through all of <b>Higurashi no Naku Koro ni</b> by 07th Expansion.
     </p>
     <p>
-      Currently {{ completedEntryCount}} out of the {{ entryCount }} total entries have been finished, amounting to about {{ totalCompletionPercentage}}% completion!
+      Currently {{ completedEntryCount }} (weight: <code v-html="completedWeight" />) out of the {{ entryCount }} total entries (weight: <code v-html="entryWeight" />) have been finished, amounting to about {{ totalCompletionPercentage}}% completion! The list is weighted by the approximate time a single entry
+      takes to be finished (in hours), that's why the completion percentage does probably not match up with the actual finished count.
     </p>
     <div class="progress mb-5">
       <div class="progress-bar bg-success" role="progressbar" :style="'width: ' + totalCompletionPercentage + '%'" :aria-valuenow="totalCompletionPercentage" aria-valuemin="0" aria-valuemax="100"></div>
@@ -45,6 +46,20 @@ export default {
 
       return allEntries.length
     },
+    entryWeight: function() {
+      let allEntries = []
+      let fullWeight = 0
+
+      this.seriesData.forEach((seriesEntry) => {
+        allEntries = allEntries.concat(seriesEntry.entries)
+      })
+
+      allEntries.forEach((entry) => {
+        fullWeight += entry.weight
+      })
+
+      return fullWeight.toFixed(2)
+    },
     completedEntryCount: function() {
       let allEntries = []
 
@@ -54,8 +69,9 @@ export default {
 
       return (allEntries.filter((entry) => entry.done === true)).length
     },
-    totalCompletionPercentage: function() {
+    completedWeight: function() {
       let allEntries = []
+      let completedWeight = 0
 
       this.seriesData.forEach((seriesEntry) => {
         allEntries = allEntries.concat(seriesEntry.entries)
@@ -63,11 +79,36 @@ export default {
 
       const completedEntries = (
         allEntries.filter((entry) => entry.done === true)
-        ).length
+        )
 
-      console.log(allEntries.length)
+      completedEntries.forEach((entry) => {
+        completedWeight += entry.weight
+      })
 
-      return ((completedEntries / allEntries.length) * 100).toFixed()
+      return completedWeight.toFixed(2)
+    },
+    totalCompletionPercentage: function() {
+      let allEntries = []
+      let fullWeight = 0
+      let completedWeight = 0
+
+      this.seriesData.forEach((seriesEntry) => {
+        allEntries = allEntries.concat(seriesEntry.entries)
+      })
+
+      allEntries.forEach((entry) => {
+        fullWeight += entry.weight
+      })
+
+      const completedEntries = (
+        allEntries.filter((entry) => entry.done === true)
+        )
+
+      completedEntries.forEach((entry) => {
+        completedWeight += entry.weight
+      })
+
+      return ((completedWeight / fullWeight) * 100).toFixed()
     }
   }
 }
