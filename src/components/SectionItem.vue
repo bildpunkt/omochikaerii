@@ -1,6 +1,14 @@
 <template>
   <div :class="classes">
-    {{ entry.title }}
+    <div class="d-flex justify-content-between">
+      <div>
+        {{ entry.title }}
+      </div>
+      <div class="text-right text-black-50">
+        Weight:
+        <span class="font-monospace" v-html="entry.weight"/>
+      </div>
+    </div>
   </div>
 </template>
 
