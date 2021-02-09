@@ -4,19 +4,27 @@ export default {
   entries: [
     {
       title: 'Chapter 1 - Onikakushi',
-      done: true
+      done: true,
+      tags: ['onikakushi'],
+      weight: 9.0
     },
     {
       title: 'Chapter 2 - Watanagashi',
-      done: true
+      done: true,
+      tags: ['watanagashi'],
+      weight: 9.0
     },
     {
       title: 'Chapter 3 - Tatarigoroshi',
-      done: true
+      done: true,
+      tags: ['tatarigoroshi'],
+      weight: 9.0
     },
     {
       title: 'Chapter 4 - Himatsubushi',
-      done: true
+      done: true,
+      tags: ['himatsubushi'],
+      weight: 5.0
     },
   ]
 }

@@ -4,35 +4,51 @@ export default {
   entries: [
     {
       title: 'Someutsushi',
-      done: false
+      done: false,
+      tags: [],
+      weight: 2.0
     },
     {
       title: 'Kageboushi',
-      done: false
+      done: false,
+      tags: [],
+      weight: 2.0
     },
     {
       title: 'Tsukiotoshi',
-      done: false
+      done: false,
+      tags: [],
+      weight: 2.0
     },
     {
       title: 'Taraimawashi',
-      done: false
+      done: false,
+      tags: [],
+      weight: 2.0
     },
     {
       title: 'Tokihogushi',
-      done: false
+      done: false,
+      tags: [],
+      weight: 2.0
     },
     {
       title: 'Miotsukushi Omote',
-      done: false
+      done: false,
+      tags: [],
+      weight: 2.0
     },
     {
       title: 'Miotsukushi Ura',
-      done: false
+      done: false,
+      tags: [],
+      weight: 2.0
     },
     {
       title: 'Yoigoshi',
-      done: false
+      done: false,
+      tags: [],
+      weight: 2.0
     },
   ]
 }
