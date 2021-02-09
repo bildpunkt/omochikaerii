@@ -12,7 +12,7 @@ export default {
     },
     {
       title: 'Chapter 7 - Minagoroshi',
-      done: false
+      done: true
     },
     {
       title: 'Chapter 8 - Matsuribayashi',
