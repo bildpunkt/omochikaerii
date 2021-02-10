@@ -2,7 +2,8 @@ import { reactive, computed } from 'vue'
 import data from './data'
 
 const state = reactive({
-  seriesData: data
+  seriesData: data,
+  showWeights: true
 })
 
 const entries = computed(() => state.seriesData.flatMap((series) => series.entries))
