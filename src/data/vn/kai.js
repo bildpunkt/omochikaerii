@@ -22,7 +22,7 @@ export default {
     },
     {
       title: 'Chapter 8 - Matsuribayashi',
-      done: false,
+      done: true,
       tags: ['matsuribayashi'],
       weight: 9.0
     },
