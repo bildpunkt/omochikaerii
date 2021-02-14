@@ -4,7 +4,7 @@ export default {
   entries: [
     {
       title: 'Someutsushi',
-      done: false,
+      done: true,
       tags: [],
       weight: 2.0
     },
