@@ -6,49 +6,49 @@ export default {
       title: 'Someutsushi',
       done: true,
       tags: [],
-      weight: 2.0
+      weight: 3.0
     },
     {
       title: 'Kageboushi',
       done: false,
       tags: [],
-      weight: 2.0
+      weight: 3.0
     },
     {
       title: 'Tsukiotoshi',
       done: false,
       tags: [],
-      weight: 2.0
+      weight: 3.0
     },
     {
       title: 'Taraimawashi',
       done: false,
       tags: [],
-      weight: 2.0
+      weight: 3.0
     },
     {
       title: 'Tokihogushi',
       done: false,
       tags: [],
-      weight: 2.0
+      weight: 3.0
     },
     {
       title: 'Miotsukushi Omote',
       done: false,
       tags: [],
-      weight: 2.0
+      weight: 6.0
     },
     {
       title: 'Miotsukushi Ura',
       done: false,
       tags: [],
-      weight: 2.0
+      weight: 6.0
     },
     {
       title: 'Yoigoshi',
       done: false,
       tags: [],
-      weight: 2.0
+      weight: 4.0
     },
   ]
 }
