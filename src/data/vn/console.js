@@ -1,6 +1,7 @@
 export default {
-  title: 'Higurashi no Naku Koro ni (Console Arcs)',
+  title: 'Higurashi no Naku Koro ni: Sui',
   type: 'Visual Novel',
+  note: "Sui is the PS Vita/PS3 release of Higurashi, encompassing all arcs. I'll only use it for the console-specific ones.",
   entries: [
     {
       title: 'Someutsushi',
