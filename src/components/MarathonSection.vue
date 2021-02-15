@@ -4,10 +4,14 @@
       <div class="progress-bar bg-success" role="progressbar" :style="'width: ' + completedPercentage + '%'" :aria-valuenow="completedPercentage" aria-valuemin="0" aria-valuemax="100"></div>
     </div>
     <div class="card-body">
-      <h2 class="mb-0">
-        <span class="badge bg-secondary">{{ data.type }}</span>
-        {{ data.title }}
-      </h2>
+      <div class="d-sm-flex">
+        <div class="mt-0 mb-1 order-sm-last align-self-sm-center">
+          <span class="badge bg-light text-dark border">{{ data.type }}</span>
+        </div>
+        <h2 class="mb-0 flex-sm-grow-1">
+          {{ data.title }}
+        </h2>
+      </div>
       <p class="text-muted mt-1 mb-0" v-if="data.note">
         <strong>Note:</strong> {{ data.note }}
       </p>
