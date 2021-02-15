@@ -5,9 +5,7 @@
     </div>
     <div class="card-body">
       <div class="d-sm-flex">
-        <div class="mt-0 mb-1 order-sm-last align-self-sm-center">
-          <span class="badge bg-light text-dark border">{{ data.type }}</span>
-        </div>
+        <section-badge :type="data.type"/>
         <h2 class="mb-0 flex-sm-grow-1">
           {{ data.title }}
         </h2>
@@ -23,11 +21,13 @@
 </template>
 
 <script>
+import SectionBadge from './SectionBadge.vue'
 import SectionItem from './SectionItem.vue'
 
 export default {
   name: 'MarathonSection',
   components: {
+    SectionBadge,
     SectionItem
   },
   props: {
