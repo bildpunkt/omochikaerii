@@ -1,5 +1,5 @@
 <template>
-  <div class="card shadow border-0 mb-5">
+  <div class="card shadow border-0 mb-5" v-if="data.entries.length > 0">
     <div class="progress rounded-0 rounded-top">
       <div class="progress-bar bg-success" role="progressbar" :style="'width: ' + completedPercentage + '%'" :aria-valuenow="completedPercentage" aria-valuemin="0" aria-valuemax="100"></div>
     </div>

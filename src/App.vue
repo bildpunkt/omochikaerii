@@ -8,16 +8,22 @@
       Currently {{ global.completedEntryCount }} <span v-if="global.showWeights">(weight: <code v-html="global.completedEntryWeight" />) </span>out of the {{ global.entryCount }} total entries <span v-if="global.showWeights">(weight: <code v-html="global.entryWeight" />) </span>have been finished, amounting to about {{ global.completedPercentage }}% completion! The list is weighted by the approximate time a single entry
       takes to be finished (in hours), that's why the completion percentage does probably not match up with the actual finished count.
     </p>
-    <div class="progress mb-5">
+    <div class="progress mb-3">
       <div class="progress-bar bg-success" role="progressbar" :style="'width: ' + global.completedPercentage + '%'" :aria-valuenow="global.completedPercentage" aria-valuemin="0" aria-valuemax="100"></div>
     </div>
+    <marathon-filter/>
     <div class="clearfix">
       <div class="form-check form-switch float-end">
         <input class="form-check-input" type="checkbox" id="weight-input" v-model="global.showWeights">
         <label class="form-check-label" for="weight-input">Show weights</label>
       </div>
     </div>
-    <marathon-section v-for="seriesEntry in seriesData" :key="seriesEntry.title" :data="seriesEntry"/>
+    <div v-if="global.state.filteredData.length > 0">
+      <marathon-section v-for="seriesEntry in global.state.filteredData" :key="seriesEntry.title" :data="seriesEntry"/>
+    </div>
+    <div v-else>
+      <marathon-section v-for="seriesEntry in global.state.seriesData" :key="seriesEntry.title" :data="seriesEntry"/>
+    </div>
     <footer>
       <hr/>
       <p class="text-muted">
@@ -29,18 +35,19 @@
 
 <script>
 import MarathonSection from './components/MarathonSection.vue'
+import MarathonFilter from './components/MarathonFilter.vue'
 import global from './state'
-import seriesData from './data'
 
 export default {
   name: 'App',
   data: function() {
     return {
-      seriesData: seriesData,
+      ...global.state,
       global
     }
   },
   components: {
+    MarathonFilter,
     MarathonSection
   },
 }
