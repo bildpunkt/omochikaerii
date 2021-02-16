@@ -3,25 +3,25 @@ export default {
   type: 'Visual Novel',
   entries: [
     {
-      title: 'Chapter 5 - Meakashi',
+      title: 'Meakashi',
       done: true,
       tags: ['meakashi'],
       weight: 9.0
     },
     {
-      title: 'Chapter 6 - Tsumihoroboshi',
+      title: 'Tsumihoroboshi',
       done: true,
       tags: ['tsumihoroboshi'],
       weight: 9.0
     },
     {
-      title: 'Chapter 7 - Minagoroshi',
+      title: 'Minagoroshi',
       done: true,
       tags: ['minagoroshi'],
       weight: 9.0
     },
     {
-      title: 'Chapter 8 - Matsuribayashi',
+      title: 'Matsuribayashi',
       done: true,
       tags: ['matsuribayashi'],
       weight: 9.0
