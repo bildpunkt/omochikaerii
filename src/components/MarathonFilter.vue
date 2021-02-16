@@ -18,20 +18,11 @@
       </p>
       <p class="fw-bold mb-0">Type:</p>
       <p>
-        <button class="btn btn-primary mb-1 me-1" @click="global.state.filterValue = 'type:Visual Novel'">Visual Novel</button>
-        <button class="btn btn-primary mb-1 me-1" @click="global.state.filterValue = 'type:Manga'">Manga</button>
-        <button class="btn btn-primary mb-1 me-1" @click="global.state.filterValue = 'type:Anime'">Anime</button>
+        <button v-for="type in filters.type" :key="type" class="btn btn-primary mb-1 me-1" @click="global.state.filterValue = `type:${type}`">{{ type }}</button>
       </p>
       <p class="fw-bold mb-0">Arc:</p>
       <p>
-        <button class="btn btn-primary mb-1 me-1" @click="global.state.filterValue = 'arc:onikakushi'">Onikakushi</button>
-        <button class="btn btn-primary mb-1 me-1" @click="global.state.filterValue = 'arc:watanagashi'">Watanagashi</button>
-        <button class="btn btn-primary mb-1 me-1" @click="global.state.filterValue = 'arc:tatarigoroshi'">Tatarigoroshi</button>
-        <button class="btn btn-primary mb-1 me-1" @click="global.state.filterValue = 'arc:himatsubushi'">Himatsubushi</button>
-        <button class="btn btn-primary mb-1 me-1" @click="global.state.filterValue = 'arc:meakashi'">Meakashi</button>
-        <button class="btn btn-primary mb-1 me-1" @click="global.state.filterValue = 'arc:tsumihoroboshi'">Tsumihoroboshi</button>
-        <button class="btn btn-primary mb-1 me-1" @click="global.state.filterValue = 'arc:minagoroshi'">Minagoroshi</button>
-        <button class="btn btn-primary mb-1 me-1" @click="global.state.filterValue = 'arc:matsuribayashi'">Matsuribayashi</button>
+        <button v-for="arc in filters.arc" :key="arc" class="btn btn-primary text-capitalize mb-1 me-1" @click="global.state.filterValue = `arc:${arc}`">{{ arc }}</button>
       </p>
     </div>
   </div>
@@ -45,10 +36,6 @@ export default {
   data: function() {
     return {
       filters: {
-        status: [
-          'progress',
-          'done'
-        ],
         type: [
           'Visual Novel',
           'Manga',
