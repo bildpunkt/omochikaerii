@@ -3,7 +3,7 @@ import { filterSeriesByArc, filterSeriesByStatus, filterSeriesByType } from './f
 import data from './data'
 
 const state = reactive({
-  seriesData: [].concat(data),
+  seriesData: data,
   filteredData: [],
   filterValue: '',
   showWeights: true
