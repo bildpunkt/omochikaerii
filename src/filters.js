@@ -1,38 +1,41 @@
 import clone from './utilities/clone'
 import data from './data'
 
+function removePrefixFromFilter(value, prefix) {
+  return value.replace(`${prefix}:`, '')
+}
+
 export const filterSeriesByArc = (filter) => {
-  const filterValue = filter.replace('arc:', '')
-  const filterBase = clone(data)
+  const arc = removePrefixFromFilter(filter, 'arc')
+  const initialData = clone(data)
 
-  filterBase.forEach(series => {
-    series.entries = series.entries.filter(entry => entry.tags.includes(filterValue))
+  return initialData.map(series => {
+    series.entries = series.entries.filter(entry => entry.tags.includes(arc))
+    return series
   })
-
-  return filterBase
 }
 
 export const filterSeriesByStatus = (filter) => {
-  const filterValue = filter.replace('status:', '')
-  const filterBase = clone(data)
+  const status = removePrefixFromFilter(filter, 'status')
+  const initialData = clone(data)
 
-  filterBase.forEach(series => {
-    switch (filterValue) {
+  return initialData.map(series => {
+    switch (status) {
       case 'done':
         series.entries = series.entries.filter(entry => entry.done)
-        break;
+        break
       case 'progress':
         series.entries = series.entries.filter(entry => !entry.done)
-        break;
+        break
     }
-  })
 
-  return filterBase
+    return series
+  })
 }
 
 export const filterSeriesByType = (filter) => {
-  const filterValue = filter.replace('type:', '')
-  const filterBase = clone(data)
+  const type = removePrefixFromFilter(filter, 'type')
+  const initialData = clone(data)
 
-  return filterBase.filter(series => series.type === filterValue)
+  return initialData.filter(series => series.type === type)
 }
