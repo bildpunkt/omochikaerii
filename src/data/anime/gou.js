@@ -29,25 +29,25 @@ export default {
     },
     {
       title: 'Episode 5',
-      done: false,
+      done: true,
       tags: [],
       weight: 0.3
     },
     {
       title: 'Episode 6',
-      done: false,
+      done: true,
       tags: [],
       weight: 0.3
     },
     {
       title: 'Episode 7',
-      done: false,
+      done: true,
       tags: [],
       weight: 0.3
     },
     {
       title: 'Episode 8',
-      done: false,
+      done: true,
       tags: [],
       weight: 0.3
     },
