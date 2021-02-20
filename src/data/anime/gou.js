@@ -17,13 +17,13 @@ export default {
     },
     {
       title: 'Episode 3',
-      done: false,
+      done: true,
       tags: [],
       weight: 0.3
     },
     {
       title: 'Episode 4',
-      done: false,
+      done: true,
       tags: [],
       weight: 0.3
     },
