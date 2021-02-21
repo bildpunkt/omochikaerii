@@ -53,31 +53,31 @@ export default {
     },
     {
       title: 'Episode 9',
-      done: false,
+      done: true,
       tags: [],
       weight: 0.3
     },
     {
       title: 'Episode 10',
-      done: false,
+      done: true,
       tags: [],
       weight: 0.3
     },
     {
       title: 'Episode 11',
-      done: false,
+      done: true,
       tags: [],
       weight: 0.3
     },
     {
       title: 'Episode 12',
-      done: false,
+      done: true,
       tags: [],
       weight: 0.3
     },
     {
       title: 'Episode 13',
-      done: false,
+      done: true,
       tags: [],
       weight: 0.3
     },
