@@ -107,19 +107,19 @@ export default {
     },
     {
       title: 'Episode 18',
-      done: false,
+      done: true,
       tags: [],
       weight: 0.3
     },
     {
       title: 'Episode 19',
-      done: false,
+      done: true,
       tags: [],
       weight: 0.3
     },
     {
       title: 'Episode 20',
-      done: false,
+      done: true,
       tags: [],
       weight: 0.3
     },
