@@ -125,7 +125,7 @@ export default {
     },
     {
       title: 'Episode 21',
-      done: false,
+      done: true,
       tags: [],
       weight: 0.3
     },
