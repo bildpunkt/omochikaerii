@@ -11,9 +11,9 @@ export default {
     },
     {
       title: 'Kageboushi',
-      done: false,
+      done: true,
       tags: [],
-      weight: 3.0
+      weight: 5.0
     },
     {
       title: 'Tsukiotoshi',
