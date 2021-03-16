@@ -17,9 +17,9 @@ export default {
     },
     {
       title: 'Tsukiotoshi',
-      done: false,
+      done: true,
       tags: [],
-      weight: 3.0
+      weight: 2.0
     },
     {
       title: 'Taraimawashi',
