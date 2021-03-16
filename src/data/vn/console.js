@@ -23,9 +23,9 @@ export default {
     },
     {
       title: 'Taraimawashi',
-      done: false,
+      done: true,
       tags: [],
-      weight: 3.0
+      weight: 2.0
     },
     {
       title: 'Tokihogushi',
