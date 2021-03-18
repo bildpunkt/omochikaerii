@@ -143,7 +143,7 @@ export default {
     },
     {
       title: 'Episode 24',
-      done: false,
+      done: true,
       tags: [],
       weight: 0.3
     },
