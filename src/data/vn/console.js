@@ -29,9 +29,9 @@ export default {
     },
     {
       title: 'Tokihogushi',
-      done: false,
+      done: true,
       tags: [],
-      weight: 3.0
+      weight: 4.0
     },
     {
       title: 'Miotsukushi Omote',
