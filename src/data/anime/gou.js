@@ -1,6 +1,5 @@
 export default {
   title: 'Higurashi no Naku Koro ni: Gou',
-  note: 'At the time of making this list it`s still airing, 24 episodes is what AniList told me about the total!',
   type: 'Anime',
   entries: [
     {
