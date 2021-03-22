@@ -4,25 +4,25 @@ export default {
   entries: [
     {
       title: 'Episode 1 - Onikakushi, Part 1',
-      done: false,
+      done: true,
       tags: ['onikakushi'],
       weight: 0.3
     },
     {
       title: 'Episode 2 - Onikakushi, Part 2',
-      done: false,
+      done: true,
       tags: ['onikakushi'],
       weight: 0.3
     },
     {
       title: 'Episode 3 - Onikakushi, Part 3',
-      done: false,
+      done: true,
       tags: ['onikakushi'],
       weight: 0.3
     },
     {
       title: 'Episode 4 - Onikakushi, Part 4',
-      done: false,
+      done: true,
       tags: ['onikakushi'],
       weight: 0.3
     },
