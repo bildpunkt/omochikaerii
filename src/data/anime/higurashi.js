@@ -28,25 +28,25 @@ export default {
     },
     {
       title: 'Episode 5 - Watanagashi, Part 1',
-      done: false,
+      done: true,
       tags: ['watanagashi'],
       weight: 0.3
     },
     {
       title: 'Episode 6 - Watanagashi, Part 2',
-      done: false,
+      done: true,
       tags: ['watanagashi'],
       weight: 0.3
     },
     {
       title: 'Episode 7 - Watanagashi, Part 3',
-      done: false,
+      done: true,
       tags: ['watanagashi'],
       weight: 0.3
     },
     {
       title: 'Episode 8 - Watanagashi, Part 4',
-      done: false,
+      done: true,
       tags: ['watanagashi'],
       weight: 0.3
     },
