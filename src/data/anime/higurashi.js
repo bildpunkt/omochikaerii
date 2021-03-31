@@ -76,19 +76,19 @@ export default {
     },
     {
       title: 'Episode 13 - Tatarigoroshi, Part 5',
-      done: false,
+      done: true,
       tags: ['tatarigoroshi'],
       weight: 0.3
     },
     {
       title: 'Episode 14 - Himatsubushi, Part 1',
-      done: false,
+      done: true,
       tags: ['himatsubushi'],
       weight: 0.3
     },
     {
       title: 'Episode 15 - Himatsubushi, Part 2',
-      done: false,
+      done: true,
       tags: ['himatsubushi'],
       weight: 0.3
     },
