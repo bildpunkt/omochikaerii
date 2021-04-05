@@ -94,37 +94,37 @@ export default {
     },
     {
       title: 'Episode 16 - Meakashi, Part 1',
-      done: false,
+      done: true,
       tags: ['meakashi'],
       weight: 0.3
     },
     {
       title: 'Episode 17 - Meakashi, Part 2',
-      done: false,
+      done: true,
       tags: ['meakashi'],
       weight: 0.3
     },
     {
       title: 'Episode 18 - Meakashi, Part 3',
-      done: false,
+      done: true,
       tags: ['meakashi'],
       weight: 0.3
     },
     {
       title: 'Episode 19 - Meakashi, Part 4',
-      done: false,
+      done: true,
       tags: ['meakashi'],
       weight: 0.3
     },
     {
       title: 'Episode 20 - Meakashi, Part 5',
-      done: false,
+      done: true,
       tags: ['meakashi'],
       weight: 0.3
     },
     {
       title: 'Episode 21 - Meakashi, Part 6',
-      done: false,
+      done: true,
       tags: ['meakashi'],
       weight: 0.3
     },
