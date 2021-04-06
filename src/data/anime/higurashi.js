@@ -130,13 +130,13 @@ export default {
     },
     {
       title: 'Episode 22 - Tsumihoroboshi, Part 1',
-      done: false,
+      done: true,
       tags: ['tsumihoroboshi'],
       weight: 0.3
     },
     {
       title: 'Episode 23 - Tsumihoroboshi, Part 2',
-      done: false,
+      done: true,
       tags: ['tsumihoroboshi'],
       weight: 0.3
     },
