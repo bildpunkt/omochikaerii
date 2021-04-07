@@ -154,7 +154,7 @@ export default {
     },
     {
       title: 'Episode 26 - Tsumihoroboshi, Part 5',
-      done: false,
+      done: true,
       tags: ['tsumihoroboshi'],
       weight: 0.3
     },
