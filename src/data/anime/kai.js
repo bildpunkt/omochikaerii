@@ -4,13 +4,13 @@ export default {
   entries: [
     {
       title: 'Episode 1',
-      done: false,
+      done: true,
       tags: [],
       weight: 0.3
     },
     {
       title: 'Episode 2 - Yakusamashi, Part 1',
-      done: false,
+      done: true,
       tags: ['yakusamashi'],
       weight: 0.3
     },
