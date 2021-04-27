@@ -16,13 +16,13 @@ export default {
     },
     {
       title: 'Episode 3 - Yakusamashi, Part 2',
-      done: false,
+      done: true,
       tags: ['yakusamashi'],
       weight: 0.3
     },
     {
       title: 'Episode 4 - Yakusamashi, Part 3',
-      done: false,
+      done: true,
       tags: ['yakusamashi'],
       weight: 0.3
     },
