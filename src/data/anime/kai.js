@@ -64,13 +64,13 @@ export default {
     },
     {
       title: 'Episode 11 - Minagoroshi, Part 6',
-      done: false,
+      done: true,
       tags: ['minagoroshi'],
       weight: 0.3
     },
     {
       title: 'Episode 12 - Minagoroshi, Part 7',
-      done: false,
+      done: true,
       tags: ['minagoroshi'],
       weight: 0.3
     },
