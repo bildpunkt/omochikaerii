@@ -76,13 +76,13 @@ export default {
     },
     {
       title: 'Episode 13 - Minagoroshi, Part 8',
-      done: false,
+      done: true,
       tags: ['minagoroshi'],
       weight: 0.3
     },
     {
       title: 'Episode 14 - Matsuribayashi, Part 1',
-      done: false,
+      done: true,
       tags: ['matsuribayashi'],
       weight: 0.3
     },
