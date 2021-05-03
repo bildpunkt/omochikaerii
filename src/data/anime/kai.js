@@ -88,13 +88,13 @@ export default {
     },
     {
       title: 'Episode 15 - Matsuribayashi, Part 2',
-      done: false,
+      done: true,
       tags: ['matsuribayashi'],
       weight: 0.3
     },
     {
       title: 'Episode 16 - Matsuribayashi, Part 3',
-      done: false,
+      done: true,
       tags: ['matsuribayashi'],
       weight: 0.3
     },
