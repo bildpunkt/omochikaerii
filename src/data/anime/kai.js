@@ -100,25 +100,25 @@ export default {
     },
     {
       title: 'Episode 17 - Matsuribayashi, Part 4',
-      done: false,
+      done: true,
       tags: ['matsuribayashi'],
       weight: 0.3
     },
     {
       title: 'Episode 18 - Matsuribayashi, Part 5',
-      done: false,
+      done: true,
       tags: ['matsuribayashi'],
       weight: 0.3
     },
     {
       title: 'Episode 19 - Matsuribayashi, Part 6',
-      done: false,
+      done: true,
       tags: ['matsuribayashi'],
       weight: 0.3
     },
     {
       title: 'Episode 20 - Matsuribayashi, Part 7',
-      done: false,
+      done: true,
       tags: ['matsuribayashi'],
       weight: 0.3
     },
