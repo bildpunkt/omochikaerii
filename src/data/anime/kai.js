@@ -124,13 +124,13 @@ export default {
     },
     {
       title: 'Episode 21 - Matsuribayashi, Part 8',
-      done: false,
+      done: true,
       tags: ['matsuribayashi'],
       weight: 0.3
     },
     {
       title: 'Episode 22 - Matsuribayashi, Part 9',
-      done: false,
+      done: true,
       tags: ['matsuribayashi'],
       weight: 0.3
     },
