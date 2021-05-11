@@ -5,15 +5,15 @@ export default {
   entries: [
     {
       title: 'Onikakushi - Volume 1',
-      done: false,
+      done: true,
       tags: ['onikakushi'],
-      weight: 1.5
+      weight: 0.25
     },
     {
       title: 'Onikakushi - Volume 2',
-      done: false,
+      done: true,
       tags: ['onikakushi'],
-      weight: 1.5
+      weight: 0.25
     },
     {
       title: 'Watanagashi - Volume 1',
