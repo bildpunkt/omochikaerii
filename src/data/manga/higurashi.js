@@ -19,13 +19,13 @@ export default {
       title: 'Watanagashi - Volume 1',
       done: true,
       tags: ['watanagashi'],
-      weight: 1.5
+      weight: 0.25
     },
     {
       title: 'Watanagashi - Volume 2',
       done: true,
       tags: ['watanagashi'],
-      weight: 1.5
+      weight: 0.25
     },
     {
       title: 'Tatarigoroshi - Volume 1',
