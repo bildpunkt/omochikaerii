@@ -29,15 +29,15 @@ export default {
     },
     {
       title: 'Tatarigoroshi - Volume 1',
-      done: false,
+      done: true,
       tags: ['tatarigoroshi'],
-      weight: 1.5
+      weight: 0.25
     },
     {
       title: 'Tatarigoroshi - Volume 2',
-      done: false,
+      done: true,
       tags: ['tatarigoroshi'],
-      weight: 1.5
+      weight: 0.25
     },
     {
       title: 'Himatsubushi - Volume 1',
