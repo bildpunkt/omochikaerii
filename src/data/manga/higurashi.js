@@ -41,15 +41,15 @@ export default {
     },
     {
       title: 'Himatsubushi - Volume 1',
-      done: false,
+      done: true,
       tags: ['himatsubushi'],
-      weight: 1.5
+      weight: 0.25
     },
     {
       title: 'Himatsubushi - Volume 2',
-      done: false,
+      done: true,
       tags: ['himatsubushi'],
-      weight: 1.5
+      weight: 0.25
     },
   ]
 }
