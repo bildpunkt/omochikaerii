@@ -6,7 +6,7 @@ export default {
       title: 'Saikoroshi - Volume 1',
       done: false,
       tags: ['saikoroshi'],
-      weight: 1.5
+      weight: 0.25
     }
   ]
 }

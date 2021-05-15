@@ -1,7 +1,6 @@
 export default {
   title: 'Higurashi no Naku Koro ni',
   type: 'Manga',
-  note: 'Volumes here actually mean a single book, so the count differs a bit',
   entries: [
     {
       title: 'Onikakushi - Volume 1',
