@@ -1,29 +1,28 @@
 export default {
   title: 'Higurashi no Naku Koro ni: Kai',
   type: 'Manga',
-  note: 'Volumes here actually mean a single book, so the count differs a bit',
   entries: [
     {
       title: 'Meakashi - Volume 1',
-      done: false,
+      done: true,
       tags: ['meakashi'],
       weight: 0.25
     },
     {
       title: 'Meakashi - Volume 2',
-      done: false,
+      done: true,
       tags: ['meakashi'],
       weight: 0.25
     },
     {
       title: 'Meakashi - Volume 3',
-      done: false,
+      done: true,
       tags: ['meakashi'],
       weight: 0.25
     },
     {
       title: 'Meakashi - Volume 4',
-      done: false,
+      done: true,
       tags: ['meakashi'],
       weight: 0.25
     },
