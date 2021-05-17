@@ -28,19 +28,25 @@ export default {
     },
     {
       title: 'Tsumihoroboshi - Volume 1',
-      done: false,
+      done: true,
       tags: ['tsumihoroboshi'],
       weight: 0.25
     },
     {
       title: 'Tsumihoroboshi - Volume 2',
-      done: false,
+      done: true,
       tags: ['tsumihoroboshi'],
       weight: 0.25
     },
     {
       title: 'Tsumihoroboshi - Volume 3',
-      done: false,
+      done: true,
+      tags: ['tsumihoroboshi'],
+      weight: 0.25
+    },
+    {
+      title: 'Tsumihoroboshi - Volume 4',
+      done: true,
       tags: ['tsumihoroboshi'],
       weight: 0.25
     },
@@ -76,12 +82,6 @@ export default {
     },
     {
       title: 'Matsuribayashi - Volume 3',
-      done: false,
-      tags: ['matsuribayashi'],
-      weight: 0.25
-    },
-    {
-      title: 'Matsuribayashi - Volume 4',
       done: false,
       tags: ['matsuribayashi'],
       weight: 0.25
