@@ -52,19 +52,37 @@ export default {
     },
     {
       title: 'Minagoroshi - Volume 1',
-      done: false,
+      done: true,
       tags: ['minagoroshi'],
       weight: 0.25
     },
     {
       title: 'Minagoroshi - Volume 2',
-      done: false,
+      done: true,
       tags: ['minagoroshi'],
       weight: 0.25
     },
     {
       title: 'Minagoroshi - Volume 3',
-      done: false,
+      done: true,
+      tags: ['minagoroshi'],
+      weight: 0.25
+    },
+    {
+      title: 'Minagoroshi - Volume 4',
+      done: true,
+      tags: ['minagoroshi'],
+      weight: 0.25
+    },
+    {
+      title: 'Minagoroshi - Volume 5',
+      done: true,
+      tags: ['minagoroshi'],
+      weight: 0.25
+    },
+    {
+      title: 'Minagoroshi - Volume 6',
+      done: true,
       tags: ['minagoroshi'],
       weight: 0.25
     },
@@ -86,5 +104,35 @@ export default {
       tags: ['matsuribayashi'],
       weight: 0.25
     },
+    {
+      title: 'Matsuribayashi - Volume 4',
+      done: false,
+      tags: ['matsuribayashi'],
+      weight: 0.25
+    },
+    {
+      title: 'Matsuribayashi - Volume 5',
+      done: false,
+      tags: ['matsuribayashi'],
+      weight: 0.25
+    },
+    {
+      title: 'Matsuribayashi - Volume 6',
+      done: false,
+      tags: ['matsuribayashi'],
+      weight: 0.25
+    },
+    {
+      title: 'Matsuribayashi - Volume 7',
+      done: false,
+      tags: ['matsuribayashi'],
+      weight: 0.25
+    },
+    {
+      title: 'Matsuribayashi - Volume 8',
+      done: false,
+      tags: ['matsuribayashi'],
+      weight: 0.25
+    }
   ]
 }
