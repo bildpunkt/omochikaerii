@@ -88,49 +88,49 @@ export default {
     },
     {
       title: 'Matsuribayashi - Volume 1',
-      done: false,
+      done: true,
       tags: ['matsuribayashi'],
       weight: 0.25
     },
     {
       title: 'Matsuribayashi - Volume 2',
-      done: false,
+      done: true,
       tags: ['matsuribayashi'],
       weight: 0.25
     },
     {
       title: 'Matsuribayashi - Volume 3',
-      done: false,
+      done: true,
       tags: ['matsuribayashi'],
       weight: 0.25
     },
     {
       title: 'Matsuribayashi - Volume 4',
-      done: false,
+      done: true,
       tags: ['matsuribayashi'],
       weight: 0.25
     },
     {
       title: 'Matsuribayashi - Volume 5',
-      done: false,
+      done: true,
       tags: ['matsuribayashi'],
       weight: 0.25
     },
     {
       title: 'Matsuribayashi - Volume 6',
-      done: false,
+      done: true,
       tags: ['matsuribayashi'],
       weight: 0.25
     },
     {
       title: 'Matsuribayashi - Volume 7',
-      done: false,
+      done: true,
       tags: ['matsuribayashi'],
       weight: 0.25
     },
     {
       title: 'Matsuribayashi - Volume 8',
-      done: false,
+      done: true,
       tags: ['matsuribayashi'],
       weight: 0.25
     }
