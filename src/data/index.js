@@ -4,6 +4,7 @@ import consoleArcs from './vn/console'
 import higurashiManga from './manga/higurashi'
 import kaiManga from './manga/kai'
 import reiManga from './manga/rei'
+import alternativeManga from './manga/alternative'
 import higurashiAnime from './anime/higurashi'
 import nekogoroshiAnime from './anime/nekogoroshi'
 import kaiAnime from './anime/kai'
@@ -19,6 +20,7 @@ const entries = [
   higurashiManga,
   kaiManga,
   reiManga,
+  alternativeManga,
   higurashiAnime,
   nekogoroshiAnime,
   kaiAnime,
