@@ -29,7 +29,7 @@ export default {
       },
       {
         title: 'Kokoroiyashi - Volume 1',
-        done: false,
+        done: true,
         tags: [],
         weight: 0.25
       }
