@@ -17,13 +17,13 @@ export default {
       },
       {
         title: 'Onisarashi - Volume 1',
-        done: false,
+        done: true,
         tags: [],
         weight: 0.25
       },
       {
         title: 'Onisarashi - Volume 2',
-        done: false,
+        done: true,
         tags: [],
         weight: 0.25
       },
