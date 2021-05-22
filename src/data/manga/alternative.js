@@ -5,13 +5,13 @@ export default {
     entries: [
       {
         title: 'Yoigoshi - Volume 1',
-        done: false,
+        done: true,
         tags: [],
         weight: 0.25
       },
       {
         title: 'Yoigoshi - Volume 2',
-        done: false,
+        done: true,
         tags: [],
         weight: 0.25
       },
