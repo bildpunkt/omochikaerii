@@ -35,21 +35,27 @@ export default {
     },
     {
       title: 'Miotsukushi Omote',
-      done: false,
+      done: true,
       tags: [],
       weight: 6.0
     },
     {
       title: 'Miotsukushi Ura',
-      done: false,
+      done: true,
       tags: [],
       weight: 6.0
     },
     {
       title: 'Yoigoshi',
-      done: false,
+      done: true,
       tags: [],
       weight: 4.0
+    },
+    {
+      title: 'Connecting Fragments',
+      done: true,
+      tags: [],
+      weight: 3.0
     },
   ]
 }
